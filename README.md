@@ -53,7 +53,7 @@ python Preprocessing_benchmark.py --inputfile /Users/wangjue/workspace/scGAEGAT/
 python Preprocessing_main.py --expression-name Chung --featureDir /Users/wangjue/workspace/scGAEGAT/
 Clustering on Benchmarks
 
-python3 -W ignore main_benchmark.py --datasetName Chung --benchmark /Users/wangjue/workspace/scGAEGAT/Data/benchmarkData/Chung/Chung_cell_label.csv --LTMGDir /Users/wangjue/workspace/scGAEGAT/Data/benchmarkData/ --regulized-type LTMG --EMtype celltypeEM --clustering-method LouvainK --useGAEembedding --npyDir outputDir_gpu/ --debuginfo  
+python3 -W ignore scGAEGAT.py --datasetName Chung --benchmark /Users/wangjue/workspace/scGAEGAT/Data/benchmarkData/Chung/Chung_cell_label.csv --LTMGDir /Users/wangjue/workspace/scGAEGAT/Data/benchmarkData/ --regulized-type LTMG --EMtype celltypeEM --clustering-method LouvainK --useGAEembedding --npyDir outputDir_gpu/ --debuginfo  
 
 
 Imputation on Benchmarks
@@ -61,4 +61,4 @@ Imputation on Benchmarks
 Default: 10% of the non-zeros are flipped.
 
 
-python3 -W ignore main_benchmark.py --datasetName Chung --benchmark /Users/wangjue/workspace/scGAEGAT/Data/benchmarkData/Chung
+python3 -W ignore scGAEGAT.py --datasetName Chung --benchmark /Users/wangjue/workspace/scGAEGAT/Data/benchmarkData/Chung
