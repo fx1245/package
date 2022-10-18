@@ -1,4 +1,22 @@
 # scGAEGAT
+
+Installation:
+
+(Recommended) Use python virutal environment with conda
+
+conda create -n scgaegatEnv python=3.6.8 pip
+
+conda activate scgaegatEnv
+
+pip install -r requirements.txt
+
+
+If want to use LTMG (Recommended but Optional, will takes extra time in data preprocessing):
+
+conda install r-devtools
+
+conda install -c cyz931123 r-scgnnltmg
+
 Scripts to reproduce results obtained in the manuscript
 
 Preprocess benchmarks
