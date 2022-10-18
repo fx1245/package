@@ -48,7 +48,7 @@ python Preprocessing_benchmark.py --inputfile /Users/wangjue/workspace/scGAEGAT/
 python Preprocessing_benchmark.py --inputfile /Users/wangjue/workspace/scGAEGAT/Data/benchmarkData/Zeisel/T2000_expression.txt --outputfile /Users/wangjue/workspace/scGAEGAT/Zeisel.csv --split space --cellheadflag False --cellcount 3005
 
 2. generating sparse coding under data:
-3. 
+
 
 python Preprocessing_main.py --expression-name Chung --featureDir /Users/wangjue/workspace/scGAEGAT/
 Clustering on Benchmarks
